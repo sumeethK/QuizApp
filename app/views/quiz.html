@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="col-md">
+    <ol>
+      <li ng-repeat=" questionData in questionList">
+        <i>{{questionData.question}}</i>
+        <ol>
+          <li ng-repeat=" option in questionData.options">
+            <p>{{option}}</p>
+          </li>
+
+        </ol>
+
+      </li>
+    </ol>
+  </div>
+  <h3>{{serviceMessage}}</h3>
+  <h4>{{connectionDetails}}</h4>
+</div>
+</div>
+</div>
